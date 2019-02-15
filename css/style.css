@@ -33,7 +33,10 @@ top: 0;
 right: 0;
 
 }
-
+.manag{
+    margin-right:140px;
+    font-size:19pt;
+}
 .manag p{
     
     color:#15655d;
@@ -44,6 +47,7 @@ right: 0;
 }
 .appbtn{
     margin-top:45px;
+    margin-right:120px;
 }
 .app{
 background-color: #02af79;
@@ -152,4 +156,17 @@ form span{
         line-height: 30px;
 
     }
-    
+    @media (min-width: 300px) and (max-width: 767px)  { 
+        .greendiv{
+            display: none;
+        }
+        .manag{
+            font-size:15pt;
+        }
+        .hero{
+            height: auto;
+        }
+        .logodiv{
+            margin: 0 auto;
+        }
+    }
